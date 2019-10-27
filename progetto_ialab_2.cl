@@ -148,3 +148,4 @@ tre_consecutive_gen (Squadra) :-
 
 #show partita_andata/4.
 #show partita_ritorno/4.
+#show girone_contiene_squadra/4.
