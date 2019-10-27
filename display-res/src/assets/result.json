@@ -1,0 +1,2178 @@
+[
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_C"
+      },
+      {
+        "name": "club_brugge"
+      },
+      {
+        "name": "belgio"
+      },
+      {
+        "name": "bruges"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_E"
+      },
+      {
+        "name": "monaco"
+      },
+      {
+        "name": "francia"
+      },
+      {
+        "name": "monaco"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_F"
+      },
+      {
+        "name": "paris_saint_germain"
+      },
+      {
+        "name": "francia"
+      },
+      {
+        "name": "parigi"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_D"
+      },
+      {
+        "name": "olympic_lione"
+      },
+      {
+        "name": "francia"
+      },
+      {
+        "name": "lione"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_B"
+      },
+      {
+        "name": "borussia_dortmund"
+      },
+      {
+        "name": "germania"
+      },
+      {
+        "name": "dortmund"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_A"
+      },
+      {
+        "name": "schalke_04"
+      },
+      {
+        "name": "germania"
+      },
+      {
+        "name": "gelsenkirchen"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_D"
+      },
+      {
+        "name": "bayern_monaco"
+      },
+      {
+        "name": "germania"
+      },
+      {
+        "name": "monaco_di_baviera"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_H"
+      },
+      {
+        "name": "hoffenheim"
+      },
+      {
+        "name": "germania"
+      },
+      {
+        "name": "hoffenheim_sinsheim"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_H"
+      },
+      {
+        "name": "aek"
+      },
+      {
+        "name": "grecia"
+      },
+      {
+        "name": "atene"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_F"
+      },
+      {
+        "name": "tottenham_hotspur"
+      },
+      {
+        "name": "inghilterra"
+      },
+      {
+        "name": "londra"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_H"
+      },
+      {
+        "name": "liverpool"
+      },
+      {
+        "name": "inghilterra"
+      },
+      {
+        "name": "liverpool"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_C"
+      },
+      {
+        "name": "manchester_city"
+      },
+      {
+        "name": "inghilterra"
+      },
+      {
+        "name": "manchester"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_E"
+      },
+      {
+        "name": "manchester_united"
+      },
+      {
+        "name": "inghilterra"
+      },
+      {
+        "name": "manchester"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_B"
+      },
+      {
+        "name": "inter"
+      },
+      {
+        "name": "italia"
+      },
+      {
+        "name": "milano"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_A"
+      },
+      {
+        "name": "napoli"
+      },
+      {
+        "name": "italia"
+      },
+      {
+        "name": "napoli"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_C"
+      },
+      {
+        "name": "roma"
+      },
+      {
+        "name": "italia"
+      },
+      {
+        "name": "roma"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_G"
+      },
+      {
+        "name": "juventus"
+      },
+      {
+        "name": "italia"
+      },
+      {
+        "name": "torino"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_G"
+      },
+      {
+        "name": "psv_eindhoven"
+      },
+      {
+        "name": "olanda"
+      },
+      {
+        "name": "eindhoven"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_D"
+      },
+      {
+        "name": "ajax"
+      },
+      {
+        "name": "olanda"
+      },
+      {
+        "name": "amsterdam"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_F"
+      },
+      {
+        "name": "porto"
+      },
+      {
+        "name": "portogallo"
+      },
+      {
+        "name": "porto"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_G"
+      },
+      {
+        "name": "benfica"
+      },
+      {
+        "name": "portogallo"
+      },
+      {
+        "name": "lisbona"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_E"
+      },
+      {
+        "name": "viktoria_plzen"
+      },
+      {
+        "name": "repubblica_ceca"
+      },
+      {
+        "name": "plzen"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_A"
+      },
+      {
+        "name": "lokomotiv_mosca"
+      },
+      {
+        "name": "russia"
+      },
+      {
+        "name": "mosca"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_E"
+      },
+      {
+        "name": "cska_mosca"
+      },
+      {
+        "name": "russia"
+      },
+      {
+        "name": "mosca"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_F"
+      },
+      {
+        "name": "stella_rossa"
+      },
+      {
+        "name": "serbia"
+      },
+      {
+        "name": "belgrado"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_H"
+      },
+      {
+        "name": "atletico_madrid"
+      },
+      {
+        "name": "spagna"
+      },
+      {
+        "name": "madrid"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_C"
+      },
+      {
+        "name": "barcellona"
+      },
+      {
+        "name": "spagna"
+      },
+      {
+        "name": "barcellona"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_A"
+      },
+      {
+        "name": "real_madrid"
+      },
+      {
+        "name": "spagna"
+      },
+      {
+        "name": "madrid"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_B"
+      },
+      {
+        "name": "valencia"
+      },
+      {
+        "name": "spagna"
+      },
+      {
+        "name": "valencia"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_B"
+      },
+      {
+        "name": "young_boys"
+      },
+      {
+        "name": "svizzera"
+      },
+      {
+        "name": "berna"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_G"
+      },
+      {
+        "name": "galatasaray"
+      },
+      {
+        "name": "turchia"
+      },
+      {
+        "name": "istanbul"
+      }
+    ]
+  },
+  {
+    "name": "girone_contiene_squadra",
+    "args": [
+      {
+        "name": "gruppo_D"
+      },
+      {
+        "name": "shakhtar_donetsk"
+      },
+      {
+        "name": "ucraina"
+      },
+      {
+        "name": "donetsk"
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_A"
+      },
+      {
+        "name": "schalke_04"
+      },
+      {
+        "name": "napoli"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_A"
+      },
+      {
+        "name": "lokomotiv_mosca"
+      },
+      {
+        "name": "real_madrid"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_B"
+      },
+      {
+        "name": "inter"
+      },
+      {
+        "name": "valencia"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_B"
+      },
+      {
+        "name": "young_boys"
+      },
+      {
+        "name": "borussia_dortmund"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_C"
+      },
+      {
+        "name": "manchester_city"
+      },
+      {
+        "name": "club_brugge"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_C"
+      },
+      {
+        "name": "barcellona"
+      },
+      {
+        "name": "roma"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_D"
+      },
+      {
+        "name": "olympic_lione"
+      },
+      {
+        "name": "ajax"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_D"
+      },
+      {
+        "name": "bayern_monaco"
+      },
+      {
+        "name": "shakhtar_donetsk"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_E"
+      },
+      {
+        "name": "monaco"
+      },
+      {
+        "name": "manchester_united"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_E"
+      },
+      {
+        "name": "viktoria_plzen"
+      },
+      {
+        "name": "cska_mosca"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_F"
+      },
+      {
+        "name": "tottenham_hotspur"
+      },
+      {
+        "name": "stella_rossa"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_F"
+      },
+      {
+        "name": "porto"
+      },
+      {
+        "name": "paris_saint_germain"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_G"
+      },
+      {
+        "name": "benfica"
+      },
+      {
+        "name": "juventus"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_G"
+      },
+      {
+        "name": "galatasaray"
+      },
+      {
+        "name": "psv_eindhoven"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_H"
+      },
+      {
+        "name": "aek"
+      },
+      {
+        "name": "liverpool"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_H"
+      },
+      {
+        "name": "atletico_madrid"
+      },
+      {
+        "name": "hoffenheim"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_A"
+      },
+      {
+        "name": "schalke_04"
+      },
+      {
+        "name": "real_madrid"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_A"
+      },
+      {
+        "name": "napoli"
+      },
+      {
+        "name": "lokomotiv_mosca"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_B"
+      },
+      {
+        "name": "inter"
+      },
+      {
+        "name": "borussia_dortmund"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_B"
+      },
+      {
+        "name": "young_boys"
+      },
+      {
+        "name": "valencia"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_C"
+      },
+      {
+        "name": "manchester_city"
+      },
+      {
+        "name": "barcellona"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_C"
+      },
+      {
+        "name": "roma"
+      },
+      {
+        "name": "club_brugge"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_D"
+      },
+      {
+        "name": "olympic_lione"
+      },
+      {
+        "name": "shakhtar_donetsk"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_D"
+      },
+      {
+        "name": "ajax"
+      },
+      {
+        "name": "bayern_monaco"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_E"
+      },
+      {
+        "name": "monaco"
+      },
+      {
+        "name": "cska_mosca"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_E"
+      },
+      {
+        "name": "viktoria_plzen"
+      },
+      {
+        "name": "manchester_united"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_F"
+      },
+      {
+        "name": "paris_saint_germain"
+      },
+      {
+        "name": "tottenham_hotspur"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_F"
+      },
+      {
+        "name": "porto"
+      },
+      {
+        "name": "stella_rossa"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_G"
+      },
+      {
+        "name": "juventus"
+      },
+      {
+        "name": "psv_eindhoven"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_G"
+      },
+      {
+        "name": "benfica"
+      },
+      {
+        "name": "galatasaray"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_H"
+      },
+      {
+        "name": "hoffenheim"
+      },
+      {
+        "name": "aek"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_H"
+      },
+      {
+        "name": "atletico_madrid"
+      },
+      {
+        "name": "liverpool"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_A"
+      },
+      {
+        "name": "napoli"
+      },
+      {
+        "name": "real_madrid"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_A"
+      },
+      {
+        "name": "lokomotiv_mosca"
+      },
+      {
+        "name": "schalke_04"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_B"
+      },
+      {
+        "name": "inter"
+      },
+      {
+        "name": "young_boys"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_B"
+      },
+      {
+        "name": "valencia"
+      },
+      {
+        "name": "borussia_dortmund"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_C"
+      },
+      {
+        "name": "club_brugge"
+      },
+      {
+        "name": "barcellona"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_C"
+      },
+      {
+        "name": "roma"
+      },
+      {
+        "name": "manchester_city"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_D"
+      },
+      {
+        "name": "olympic_lione"
+      },
+      {
+        "name": "bayern_monaco"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_D"
+      },
+      {
+        "name": "ajax"
+      },
+      {
+        "name": "shakhtar_donetsk"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_E"
+      },
+      {
+        "name": "monaco"
+      },
+      {
+        "name": "viktoria_plzen"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_E"
+      },
+      {
+        "name": "manchester_united"
+      },
+      {
+        "name": "cska_mosca"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_F"
+      },
+      {
+        "name": "tottenham_hotspur"
+      },
+      {
+        "name": "porto"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_F"
+      },
+      {
+        "name": "stella_rossa"
+      },
+      {
+        "name": "paris_saint_germain"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_G"
+      },
+      {
+        "name": "juventus"
+      },
+      {
+        "name": "galatasaray"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_G"
+      },
+      {
+        "name": "benfica"
+      },
+      {
+        "name": "psv_eindhoven"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_H"
+      },
+      {
+        "name": "aek"
+      },
+      {
+        "name": "atletico_madrid"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_andata",
+    "args": [
+      {
+        "name": "gruppo_H"
+      },
+      {
+        "name": "liverpool"
+      },
+      {
+        "name": "hoffenheim"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_A"
+      },
+      {
+        "name": "napoli"
+      },
+      {
+        "name": "schalke_04"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_A"
+      },
+      {
+        "name": "real_madrid"
+      },
+      {
+        "name": "lokomotiv_mosca"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_B"
+      },
+      {
+        "name": "valencia"
+      },
+      {
+        "name": "inter"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_B"
+      },
+      {
+        "name": "borussia_dortmund"
+      },
+      {
+        "name": "young_boys"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_C"
+      },
+      {
+        "name": "club_brugge"
+      },
+      {
+        "name": "manchester_city"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_C"
+      },
+      {
+        "name": "roma"
+      },
+      {
+        "name": "barcellona"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_D"
+      },
+      {
+        "name": "ajax"
+      },
+      {
+        "name": "olympic_lione"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_D"
+      },
+      {
+        "name": "shakhtar_donetsk"
+      },
+      {
+        "name": "bayern_monaco"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_E"
+      },
+      {
+        "name": "manchester_united"
+      },
+      {
+        "name": "monaco"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_E"
+      },
+      {
+        "name": "cska_mosca"
+      },
+      {
+        "name": "viktoria_plzen"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_F"
+      },
+      {
+        "name": "stella_rossa"
+      },
+      {
+        "name": "tottenham_hotspur"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_F"
+      },
+      {
+        "name": "paris_saint_germain"
+      },
+      {
+        "name": "porto"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_G"
+      },
+      {
+        "name": "juventus"
+      },
+      {
+        "name": "benfica"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_G"
+      },
+      {
+        "name": "psv_eindhoven"
+      },
+      {
+        "name": "galatasaray"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_H"
+      },
+      {
+        "name": "liverpool"
+      },
+      {
+        "name": "aek"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_H"
+      },
+      {
+        "name": "hoffenheim"
+      },
+      {
+        "name": "atletico_madrid"
+      },
+      {
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_A"
+      },
+      {
+        "name": "real_madrid"
+      },
+      {
+        "name": "schalke_04"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_A"
+      },
+      {
+        "name": "lokomotiv_mosca"
+      },
+      {
+        "name": "napoli"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_B"
+      },
+      {
+        "name": "borussia_dortmund"
+      },
+      {
+        "name": "inter"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_B"
+      },
+      {
+        "name": "valencia"
+      },
+      {
+        "name": "young_boys"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_C"
+      },
+      {
+        "name": "barcellona"
+      },
+      {
+        "name": "manchester_city"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_C"
+      },
+      {
+        "name": "club_brugge"
+      },
+      {
+        "name": "roma"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_D"
+      },
+      {
+        "name": "shakhtar_donetsk"
+      },
+      {
+        "name": "olympic_lione"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_D"
+      },
+      {
+        "name": "bayern_monaco"
+      },
+      {
+        "name": "ajax"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_E"
+      },
+      {
+        "name": "cska_mosca"
+      },
+      {
+        "name": "monaco"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_E"
+      },
+      {
+        "name": "manchester_united"
+      },
+      {
+        "name": "viktoria_plzen"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_F"
+      },
+      {
+        "name": "tottenham_hotspur"
+      },
+      {
+        "name": "paris_saint_germain"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_F"
+      },
+      {
+        "name": "stella_rossa"
+      },
+      {
+        "name": "porto"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_G"
+      },
+      {
+        "name": "psv_eindhoven"
+      },
+      {
+        "name": "juventus"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_G"
+      },
+      {
+        "name": "galatasaray"
+      },
+      {
+        "name": "benfica"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_H"
+      },
+      {
+        "name": "aek"
+      },
+      {
+        "name": "hoffenheim"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_H"
+      },
+      {
+        "name": "liverpool"
+      },
+      {
+        "name": "atletico_madrid"
+      },
+      {
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_A"
+      },
+      {
+        "name": "real_madrid"
+      },
+      {
+        "name": "napoli"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_A"
+      },
+      {
+        "name": "schalke_04"
+      },
+      {
+        "name": "lokomotiv_mosca"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_B"
+      },
+      {
+        "name": "young_boys"
+      },
+      {
+        "name": "inter"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_B"
+      },
+      {
+        "name": "borussia_dortmund"
+      },
+      {
+        "name": "valencia"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_C"
+      },
+      {
+        "name": "barcellona"
+      },
+      {
+        "name": "club_brugge"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_C"
+      },
+      {
+        "name": "manchester_city"
+      },
+      {
+        "name": "roma"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_D"
+      },
+      {
+        "name": "bayern_monaco"
+      },
+      {
+        "name": "olympic_lione"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_D"
+      },
+      {
+        "name": "shakhtar_donetsk"
+      },
+      {
+        "name": "ajax"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_E"
+      },
+      {
+        "name": "viktoria_plzen"
+      },
+      {
+        "name": "monaco"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_E"
+      },
+      {
+        "name": "cska_mosca"
+      },
+      {
+        "name": "manchester_united"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_F"
+      },
+      {
+        "name": "porto"
+      },
+      {
+        "name": "tottenham_hotspur"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_F"
+      },
+      {
+        "name": "paris_saint_germain"
+      },
+      {
+        "name": "stella_rossa"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_G"
+      },
+      {
+        "name": "galatasaray"
+      },
+      {
+        "name": "juventus"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_G"
+      },
+      {
+        "name": "psv_eindhoven"
+      },
+      {
+        "name": "benfica"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_H"
+      },
+      {
+        "name": "atletico_madrid"
+      },
+      {
+        "name": "aek"
+      },
+      {
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "partita_ritorno",
+    "args": [
+      {
+        "name": "gruppo_H"
+      },
+      {
+        "name": "hoffenheim"
+      },
+      {
+        "name": "liverpool"
+      },
+      {
+        "value": 3
+      }
+    ]
+  }
+]

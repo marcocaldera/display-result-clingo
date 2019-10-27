@@ -1,0 +1,199 @@
+.champions {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  //align-items: center;
+
+  .logo {
+    margin-bottom: 30px;
+    align-self: center;
+  }
+
+  .section-group {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    /*margin-right: 20px;*/
+
+
+    .group-name {
+      color: #fff;
+    }
+
+    .group {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 21%;
+
+      .team {
+        background-color: #eee;
+        /*float: left;*/
+        padding: 10px;
+        height: 40px;
+        margin-bottom: 15px;
+        margin-right: 20px;
+        display: flex;
+
+        .team-emblem {
+          margin-right: 5px;
+        }
+
+      }
+
+    }
+
+  }
+
+  .divider-games {
+    height: 1px;
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(255, 22, 255, 0)), color-stop(51%, #ff16ff), to(rgba(255, 22, 255, 0)));
+    background-image: linear-gradient(to left, rgba(255, 22, 255, 0), #ff16ff 51%, rgba(255, 22, 255, 0));
+  }
+
+  .section-championship-day {
+    //margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    //flex: 1;
+    //background-color: white;
+
+    .giornata {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      //display: flex;
+      //flex-direction: column;
+      //align-items: center;
+
+      .giornata-number {
+        color: white;
+        //background-color: #ff16ff;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+      }
+
+    }
+
+    //.giornata:not(:last-child){
+    //  border-bottom: 1px solid #ddd;
+    //}
+
+    .group-giornata {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 25px;
+
+    }
+
+    .partita::after {
+      content: "";
+      align-self: center;
+      width: 30%;
+      height: 1px;
+      background-image: -webkit-gradient(linear, right top, left top, from(rgba(255, 22, 255, 0)), color-stop(51%, #ff16ff), to(rgba(255, 22, 255, 0)));
+      background-image: linear-gradient(to left, rgba(255, 22, 255, 0), #ff16ff 51%, rgba(255, 22, 255, 0));
+      z-index: 10;
+    }
+
+    //
+    .partita::before {
+      content: "";
+      align-self: center;
+      width: 30%;
+      height: 1px;
+      background-image: -webkit-gradient(linear, right top, left top, from(rgba(255, 22, 255, 0)), color-stop(51%, #ff16ff), to(rgba(255, 22, 255, 0)));
+      background-image: linear-gradient(to left, rgba(255, 22, 255, 0), #ff16ff 51%, rgba(255, 22, 255, 0));
+      z-index: 10;
+    }
+
+    .partita {
+      display: flex;
+      flex-direction: column;
+      //align-items: center;
+      justify-content: space-between;
+
+      background-color: rgba(0, 0, 75, 0.6);
+      height: 90px;
+      color: #fff;
+      flex: 1;
+      flex-basis: 21%;
+
+      .group-name {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+        font-size: 12px;
+      }
+
+    }
+
+    //.info-partita {
+    //  //flex-grow: 1;
+    //  display: flex;
+    //  //flex-shrink: 1;
+    //  //background-color: aquamarine;
+    //  flex-direction: column;
+    //  justify-content: space-evenly;
+    //  align-items: center;
+    //}
+
+    .info-team {
+      display: flex;
+      //flex: 1;
+      //background-color: #ff16ff;
+      //justify-content: center;
+
+      .game-team {
+        display: flex;
+      }
+
+      .game-team:first-child {
+        div {
+          margin-right: 5px;
+        }
+      }
+
+      .game-team:last-child {
+        div {
+          margin-left: 5px;
+        }
+      }
+
+      div {
+        flex: 1;
+        //background-color: #ff16ff;
+      }
+
+      div:first-child {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .versus {
+        flex: 0.2;
+        display: flex;
+        justify-content: center;
+        color: #768398;
+        //font-size: 17px;
+        //margin-left: 20px;
+        //margin-right: 20px;
+      }
+
+    }
+
+    .partita:first-child {
+      margin-right: 25px;
+    }
+
+  }
+
+}
+
+
+
+
