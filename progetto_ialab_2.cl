@@ -91,30 +91,30 @@ snc (
     N1 == N2.
 
 % # # # PARTITE # # #
-
 % In una giornata si disputano esattamente 2 partite per ogni girone.
-2 {partita_andata(Girone, Squadra1,Squadra2, 1): girone_contiene_squadra(Girone, Squadra1, _, _), girone_contiene_squadra(Girone, Squadra2, _, _ ), Squadra1 != Squadra2} 2 :- girone(Girone).
-2 {partita_andata(Girone, Squadra1,Squadra2, 2): girone_contiene_squadra(Girone, Squadra1, _, _), girone_contiene_squadra(Girone, Squadra2, _, _ ), Squadra1 != Squadra2} 2 :- girone(Girone).
-2 {partita_andata(Girone, Squadra1,Squadra2, 3): girone_contiene_squadra(Girone, Squadra1, _, _), girone_contiene_squadra(Girone, Squadra2, _, _ ), Squadra1 != Squadra2} 2 :- girone(Girone).
+giornata(1..3).
+2 {partita_andata(Girone, Squadra1,Squadra2, Gio): girone_contiene_squadra(Girone, Squadra1, _, _), girone_contiene_squadra(Girone, Squadra2, _, _ ), Squadra1 != Squadra2} 2 :- girone(Girone), giornata(Gio).
+% 2 {partita_andata(Girone, Squadra1,Squadra2, 2): girone_contiene_squadra(Girone, Squadra1, _, _), girone_contiene_squadra(Girone, Squadra2, _, _ ), Squadra1 != Squadra2} 2 :- girone(Girone).
+% 2 {partita_andata(Girone, Squadra1,Squadra2, 3): girone_contiene_squadra(Girone, Squadra1, _, _), girone_contiene_squadra(Girone, Squadra2, _, _ ), Squadra1 != Squadra2} 2 :- girone(Girone).
 
 % La partita di ritorno viene definita come una partita di andata in cui le squadre giocano in casa della squadra che all'andata ha giocato in trasferta.
-partita_ritorno(Girone, Squadra2,Squadra1, Giornata) :- partita_andata(Girone, Squadra1,Squadra2, Giornata).
+partita_ritorno(Girone, Squadra2,Squadra1, 6-Giornata+1) :- partita_andata(Girone, Squadra1,Squadra2, Giornata).
 
 % Scartare tutti gli answer set in cui si disputa la stessa partita di andata e ritorno nella stessa giornata.
-:- partita_andata(Girone, Squadra1,Squadra2, N),  partita_ritorno(Girone, Squadra1, Squadra2, N).
+% :- partita_andata(Girone, Squadra1,Squadra2, N),  partita_ritorno(Girone, Squadra1, Squadra2, N).
 
 % Scartare tutti gli answer set in cui, considerate due partite nella stessa giornata, una squadra le gioca entrambe. (INTEGRITY CONSTRAINT).
-:-  partita_andata(Girone, Squadra1,Squadra2, N),  partita_andata(Girone, Squadra1,Squadra4, N), Squadra2 != Squadra4.
-:-  partita_andata(Girone, Squadra1,Squadra2, N),  partita_andata(Girone, Squadra4,Squadra1, N), Squadra2 != Squadra4.
-:-  partita_andata(Girone, Squadra1,Squadra2, N),  partita_andata(Girone, Squadra2,Squadra4, N), Squadra1 != Squadra4.
-:-  partita_andata(Girone, Squadra1,Squadra2, N),  partita_andata(Girone, Squadra4,Squadra2, N), Squadra1 != Squadra4.
-:-  partita_andata(Girone, Squadra1,Squadra2, N),  partita_andata(Girone, Squadra2,Squadra1, N).
+:-  partita_andata(Girone, Squadra1,Squadra2, N),  partita_andata(Girone, Squadra1,Squadra4, N), Squadra2 != Squadra4.%due partite in casa nella stessa giornata
+:-  partita_andata(Girone, Squadra1,Squadra2, N),  partita_andata(Girone, Squadra4,Squadra1, N), Squadra2 != Squadra4.%due partite nella stessa giornata, una in casa una in trasferta
+:-  partita_andata(Girone, Squadra1,Squadra2, N),  partita_andata(Girone, Squadra2,Squadra4, N), Squadra1 != Squadra4.%due partite nella stessa giornata, una in trasferta ed una in casa
+:-  partita_andata(Girone, Squadra1,Squadra2, N),  partita_andata(Girone, Squadra4,Squadra2, N), Squadra1 != Squadra4.%due partite in trasferta nella stessa giornata
 
 % Scartare tutti gli answer set in cui la stessa partita viene disputata in più giornate.
-:- partita_andata(Girone, Squadra1,Squadra2, N), partita_andata(Girone, Squadra1, Squadra2, N1), N != N1 .
+:- partita_andata(Girone, Squadra1,Squadra2, N), partita_andata(Girone, Squadra1, Squadra2, N1), N != N1.
 
 % Scartare tutti gli answer set in cui una partita di andata viene disputata come una partita di ritorno in una differente giornata.
-:- partita_andata(Girone, Squadra1,Squadra2, N), partita_andata(Girone, Squadra2, Squadra1, N1), N != N1.
+:- partita_andata(Girone, Squadra1, Squadra2, N), partita_andata(Girone, Squadra2, Squadra1, N1), N != N1.%andata e ritorno in giornate diverse ma tra le partite di andata
+:- partita_andata(Girone, Squadra1, Squadra2, N), partita_andata(Girone, Squadra2, Squadra1, N).%andata e ritorno nella stessa giornata
 
 % Due squadre in forma di tripla snc con il terzo argomento della tripla uguale giocano nella stessa città.
 uguale_citta(Squadra1, Squadra2) :-
@@ -140,8 +140,10 @@ tre_consecutive_trasferta(Squadra) :-
 
 % Generalizzazione dei due concetti precedenti.
 tre_consecutive_gen (Squadra) :-
-    tre_consecutive_casa(Squadra),
     tre_consecutive_trasferta(Squadra).
+
+tre_consecutive_gen (Squadra) :-
+    tre_consecutive_casa(Squadra).
 
 % Scartare tutti gli answer set in cui una squadra gioca più di due partite consecutivamente in casa o in trasferta.
 :- tre_consecutive_gen(Squadra).

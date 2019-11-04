@@ -51,7 +51,10 @@
   <section class="section-championship-day">
 
     <div *ngFor="let giornata of partite_ritorno" class="giornata">
-      <div class="giornata-number">GIORNATA {{giornata.id +3}}</div>
+      <div class="giornata-number">
+        GIORNATA {{giornata.id}}
+        <!--{{giornata.id +3}}-->
+      </div>
       <div *ngFor="let gruppo of giornata.partite" class="group-giornata">
         <!--<div class="giornata-number">{{gruppo.key}}</div>-->
 

@@ -164,7 +164,10 @@ export class AppComponent implements OnInit {
   }
 
   preProcessingPartite() {
-    console.log(this.partite_andata);
+    // console.log(this.partite_ritorno);
+
+    this.partite_ritorno = _.sortBy(this.partite_ritorno, ['id']);
+    this.partite_andata = _.sortBy(this.partite_andata, ['id']);
 
     // console.log(_.chain(this.partite_andata)
     //   .map(x => x.partite)
