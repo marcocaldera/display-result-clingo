@@ -1,39 +1,39 @@
 % Squadre partecipanti alla UEFA Champions League 2018/2019.
 
-nazione(
-    belgio;         francia;        germania;
-    grecia;         inghilterra;    italia;
-    olanda;         portogallo;     repubblica_ceca;
-    russia;         serbia;         spagna;
-    svizzera;       turchia;        ucraina;
-).
+% nazione(
+%     belgio;         francia;        germania;
+%     grecia;         inghilterra;    italia;
+%     olanda;         portogallo;     repubblica_ceca;
+%     russia;         serbia;         spagna;
+%     svizzera;       turchia;        ucraina;
+% ).
 
-citta(
-    bruges;         monaco;         parigi;
-    lione;          dortmund;       gelsenkirchen;
-    valencia;       atene;          hoffenheim_sinsheim;
-    londra;         liverpool;      manchester;
-    milano;         napoli;         roma;
-    torino;         eindhoven;      amsterdam;
-    porto;          lisbona;        plzen;
-    mosca;          belgrado;       madrid;
-    berna;          barcellona;     monaco_di_baviera;
-    istanbul;       donetsk;
-).
+% citta(
+%     bruges;         monaco;         parigi;
+%     lione;          dortmund;       gelsenkirchen;
+%     valencia;       atene;          hoffenheim_sinsheim;
+%     londra;         liverpool;      manchester;
+%     milano;         napoli;         roma;
+%     torino;         eindhoven;      amsterdam;
+%     porto;          lisbona;        plzen;
+%     mosca;          belgrado;       madrid;
+%     berna;          barcellona;     monaco_di_baviera;
+%     istanbul;       donetsk;
+% ).
 
-squadra(
-    club_brugge;        monaco;         paris_saint_germain;
-    olympic_lione;      schalke_04;     borussia_dortmund;
-    bayern_monaco;      hoffenheim;     aek;
-    tottenham_hotspur;  liverpool;      manchester_city;
-    manchester_united;  inter;          napoli;
-    psv_eindhoven;      roma;           ajax;
-    viktoria_plzen;     porto;          benfica;
-    lokomotiv_mosca;    cska_mosca;     stella_rossa;
-    atletico_madrid;    barcellona;     real_madrid;
-    galatasaray;        valencia;       young_boys;
-    shakhtar_donetsk;   juventus;
-).
+% squadra(
+%     club_brugge;        monaco;         paris_saint_germain;
+%     olympic_lione;      schalke_04;     borussia_dortmund;
+%     bayern_monaco;      hoffenheim;     aek;
+%     tottenham_hotspur;  liverpool;      manchester_city;
+%     manchester_united;  inter;          napoli;
+%     psv_eindhoven;      roma;           ajax;
+%     viktoria_plzen;     porto;          benfica;
+%     lokomotiv_mosca;    cska_mosca;     stella_rossa;
+%     atletico_madrid;    barcellona;     real_madrid;
+%     galatasaray;        valencia;       young_boys;
+%     shakhtar_donetsk;   juventus;
+% ).
 
 girone(gruppo_A; gruppo_B; gruppo_C; gruppo_D;
        gruppo_E; gruppo_F; gruppo_G; gruppo_H;
@@ -112,9 +112,9 @@ partita_ritorno(Girone, Squadra2,Squadra1, 6-Giornata+1) :- partita_andata(Giron
 % Scartare tutti gli answer set in cui la stessa partita viene disputata in più giornate.
 :- partita_andata(Girone, Squadra1,Squadra2, N), partita_andata(Girone, Squadra1, Squadra2, N1), N != N1.
 
-% Scartare tutti gli answer set in cui una partita di andata viene disputata come una partita di ritorno in una differente giornata.
-:- partita_andata(Girone, Squadra1, Squadra2, N), partita_andata(Girone, Squadra2, Squadra1, N1), N != N1.%andata e ritorno in giornate diverse ma tra le partite di andata
-:- partita_andata(Girone, Squadra1, Squadra2, N), partita_andata(Girone, Squadra2, Squadra1, N).%andata e ritorno nella stessa giornata
+% Scartare tutti gli answer set in cui una partita di andata viene disputata come una partita di ritorno in una differente giornata d'andata.
+:- partita_andata(Girone, Squadra1, Squadra2, _), partita_andata(Girone, Squadra2, Squadra1, _).%andata e ritorno in giornate diverse ma tra le partite di andata
+% :- partita_andata(Girone, Squadra1, Squadra2, N), partita_andata(Girone, Squadra2, Squadra1, N).%andata e ritorno nella stessa giornata
 
 % Due squadre in forma di tripla snc con il terzo argomento della tripla uguale giocano nella stessa città.
 uguale_citta(Squadra1, Squadra2) :-
@@ -139,14 +139,17 @@ tre_consecutive_trasferta(Squadra) :-
     partita_andata(_, _, Squadra, 3).
 
 % Generalizzazione dei due concetti precedenti.
-tre_consecutive_gen (Squadra) :-
-    tre_consecutive_trasferta(Squadra).
+% tre_consecutive_gen (Squadra) :-
+%     tre_consecutive_trasferta(Squadra).
 
-tre_consecutive_gen (Squadra) :-
-    tre_consecutive_casa(Squadra).
+% tre_consecutive_gen (Squadra) :-
+%     tre_consecutive_casa(Squadra).
+
+:- tre_consecutive_casa(Squadra).
+:- tre_consecutive_trasferta(Squadra).
 
 % Scartare tutti gli answer set in cui una squadra gioca più di due partite consecutivamente in casa o in trasferta.
-:- tre_consecutive_gen(Squadra).
+% :- tre_consecutive_gen(Squadra).
 
 #show partita_andata/4.
 #show partita_ritorno/4.
