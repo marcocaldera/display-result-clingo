@@ -1,6 +1,6 @@
 # Champions League generator
 
-## progetto_ialab_2.cl
+## `progetto_ialab_2.cl`
 Generator of the groups and matches of the Champions League
 
 ## display-res
@@ -11,3 +11,5 @@ URL to see the result:
 
 ## ASP.pdf
 Report of the project
+
+In order to generate the answer set run `run.sh`
