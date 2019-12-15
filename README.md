@@ -13,7 +13,8 @@ Angular project to show the result of the returned answer-set:
 URL to see the result:
 [Champions](https://champions-1819.web.app)
 
-## `ASP.pdf`
-Report of the project
+## Report
+Report of the project: `ASP.pdf`
 
+## Run
 In order to generate the answer set run `run.sh`
