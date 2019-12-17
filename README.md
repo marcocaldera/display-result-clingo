@@ -15,6 +15,6 @@ Report of the project: `ASP.pdf`
 ## Run
 In order to generate the answer set execute: `run.sh`
 
-
-![Image of champions groups](./images/webapp1.png)
+<img src="./images/webapp1.png"  width="80%" height="80%">\
+<img src="./images/webapp2.png"  width="80%" height="80%">\
 
