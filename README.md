@@ -16,5 +16,5 @@ Report of the project: `ASP.pdf`
 In order to generate the answer set execute: `run.sh`
 
 <img src="./images/webapp1.png"  width="80%" height="80%">\
-<img src="./images/webapp2.png"  width="80%" height="80%">\
+<img src="./images/webapp2.png"  width="80%" height="80%">
 
