@@ -14,3 +14,7 @@ Report of the project: `ASP.pdf`
 
 ## Run
 In order to generate the answer set execute: `run.sh`
+
+
+![Image of champions groups](./images/webapp1.png)
+
